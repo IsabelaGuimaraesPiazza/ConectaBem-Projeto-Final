@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>ConectaBem — Conectando pessoas ao bem</title>
+
+  <meta name="description" content="ConectaBem: gestão de projetos sociais, captação de recursos, engajamento de voluntários e transparência." />
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/design-system.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/grid.css">
+  <link rel="stylesheet" href="css/estilo.css?v=3">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+
+<body class="index">
+
+<header class="header" role="banner">
+  <div class="header-inner container">
+    <div class="titulo-container">
+      <img src="imagens/logo.png" alt="Logo ConectaBem" class="logo">
+      <h1 class="nome-site">ConectaBem</h1>
+    </div>
+
+    <button class="hamburger" aria-label="Abrir menu">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav id="main-menu" class="menu-nav">
+      <ul class="menu">
+<li><a href="home.html" data-spa>Início</a></li>
+<li><a href="projetos.html" data-spa>Projetos</a></li>
+<li><a href="cadastro.html" data-spa>Cadastro</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- SPA CONTENT -->
+<main id="main" class="container"></main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© 2025 ConectaBem — Transparência e impacto social</p>
+    <nav aria-label="Redes sociais">
+      <a href="#">Facebook</a> |
+      <a href="#">Instagram</a>
+    </nav>
+  </div>
+</footer>
+
+<!-- Toast -->
+<div class="toast"></div>
+
+<!-- Modal 1 -->
+<div id="modal-bg" class="modal-backdrop">
+  <div class="modal-box">
+    <p>Mensagem importante ✨</p>
+    <button class="btn btn-primary" onclick="closeModal()">Ok</button>
+  </div>
+</div>
+
+<!-- Modal 2 -->
+<div class="modal-overlay" id="modal">
+  <div class="modal-box">
+    <h3>Ação concluída ✅</h3>
+    <p>Obrigado por sua participação!</p>
+    <button onclick="closeModal()">Fechar</button>
+  </div>
+</div>
+
+<!-- Scripts -->
+<script src="js/app.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="js/spa.js" defer></script>
+
+</body>
+</html>
