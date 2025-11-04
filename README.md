@@ -1,6 +1,6 @@
 # ConectaBem-Projeto-Final
 Entrega final do site da ConectaBem, que foi uma ong fictícia criada por mim, Isabela, que ajuda pessoas em situações vulneráveis, doando alimentos, materias escolares, etc. Criamos projetos para ajudar essas pesoas, e projetos para cuidar do meio ambiente. Criar esse site foi uma experiência diferente e produtiva para minha carreira profissional 
-# 🌐 ConectaBem — Plataforma Social Municipal
+# 🌐 ConectaBem — Plataforma Social Municipal💜
 
 O **ConectaBem** é uma aplicação web criada para conectar voluntários, doadores e projetos sociais municipais, promovendo impacto social com transparência e acessibilidade.  
 
