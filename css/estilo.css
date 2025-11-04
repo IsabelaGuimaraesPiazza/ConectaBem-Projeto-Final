@@ -884,3 +884,34 @@ h2 {
 .badge-azul { background: var(--azul); }
 .badge-rosa { background: var(--rosa); }
 .badge-amarelo { background: var(--amarelo); }
+/* ======= ACESSIBILIDADE ======= */
+
+/* Foco visível para navegação por teclado */
+:focus {
+  outline: 3px solid #ffcc00 !important;
+  outline-offset: 3px;
+}
+
+/* ALTO CONTRASTE */
+.high-contrast {
+  filter: contrast(180%) brightness(110%);
+}
+
+/* DARK MODE ACESSÍVEL */
+.dark-mode {
+  background: #121212 !important;
+  color: #ffffff !important;
+}
+
+.dark-mode a {
+  color: #ffdd57 !important;
+}
+
+.dark-mode button,
+.dark-mode .btn,
+.dark-mode .btn-contribuir {
+  background: #ffdd57 !important;
+  color: #000 !important;
+}
+0
+

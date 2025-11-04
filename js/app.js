@@ -172,3 +172,11 @@
     boot();
   }
 })();
+document.getElementById("toggleContrast").onclick = () => {
+  document.body.classList.toggle("high-contrast");
+};
+
+document.getElementById("toggleDark").onclick = () => {
+  document.body.classList.toggle("dark-mode");
+};0
+
